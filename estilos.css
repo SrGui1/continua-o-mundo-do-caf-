@@ -1,0 +1,94 @@
+body{
+    background-color: #fbf4e8;
+    color: #6b3d22;
+}
+
+img {
+    width: 150px;
+    border: 3px solid #6b3d22ed;
+    border-radius: 12px;    
+}
+
+h1 {
+    border: 3px solid #6b3d22;
+    background: #d8c3a0;    
+    border-radius: 12px;
+
+}
+
+.nave {
+    font-size: large;
+    padding: 12px;
+    text-align: center;
+    border: 3px solid #6b3d22;
+    border-radius: 12px;
+    background: #d8c3a0;    
+    margin-right: 200px ;
+    margin-left: 200px;
+}
+
+a {
+    border: 1px solid #6b3d22;
+    color: #6b3d22;
+    background: #fbf4e8;
+    border-radius: 12px;
+    padding: 9px;
+}
+
+a:hover {
+    background: #8fb1a0; 
+    color: whitesmoke;
+}
+
+.secao {
+    border: 3px solid #6b3d22;
+    border-radius: 12px;
+    padding: 10px;
+    background: #f7e8d4; 
+    
+    /*Centraliza e da espaçamento entre os items e o justify empurra tudo para o centro */
+    display:flex;
+    gap:120px;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom: 100px;
+    margin-left: 520px;
+    margin-right: 520px;
+    
+    
+}
+
+.secao img {
+    width: 100px;
+
+}
+
+.topo {
+    text-align: center;
+    padding: 12px
+}
+
+footer {
+    text-align: center;
+    border: 3px solid #6b3d22;
+    background-color: #ceb790;
+    border-radius: 12px;
+       margin-left: 520px;
+    margin-right: 520px;
+}
+
+.secao  img {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.secao img:hover {
+  transform: scale(1.1);
+}
+
+
+.secao {
+    cursor: pointer;
+    text-transform: (1.05);
+    border-radius: 20px;
+}
